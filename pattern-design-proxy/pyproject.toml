@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pattern-design-proxy"
+version = "0.1.0"
+description = "Exemplo de aplicação usando padrão de projeto proxy em python"
+authors = ["Jonathan W."]
+license = "GNUV3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.12"
+redis = {extras = ["async"], version = "^6.2.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
