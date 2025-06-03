@@ -1,0 +1,1 @@
+from .proxy_hello_world import ProxyServiceHelloWorld as ProxyServiceHelloWorld
